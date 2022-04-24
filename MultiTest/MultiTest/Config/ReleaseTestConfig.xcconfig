@@ -1,0 +1,16 @@
+//
+//  ReleaseTestConfig.xcconfig
+//  MultiTest
+//
+//  Created by caohx on 2022/4/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "CommonConfig.xcconfig"
+#include "Pods/Target Support Files/Pods-MultiTest/Pods-MultiTest.releasetest.xcconfig"
+
+APP_DISPLAY_NAME = 正式环境测试
+//CONFIG_FLAG = RELEASE_TEST
+SCHEME = MultiTest_ReleaseTest
+BUNDLEID = com.caohx.MultiTestReleaseTest

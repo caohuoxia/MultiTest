@@ -1,0 +1,16 @@
+//
+//  DebugConfig.xcconfig
+//  MultiTest
+//
+//  Created by caohx on 2022/4/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "CommonConfig.xcconfig"
+#include "Pods/Target Support Files/Pods-MultiTest/Pods-MultiTest.debug.xcconfig"
+
+APP_DISPLAY_NAME = 测试服务
+//CONFIG_FLAG = DEBUG
+SCHEME = MultiTest
+BUNDLEID = com.caohx.MultiTest
